@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found | HireLinkin</title>
+  
+  <meta name="robots" content="noindex, nofollow" />
+  
+  <!-- Modern Typography (Outfit) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles (S3 Relative Link) -->
+  <link rel="stylesheet" href="./assets/style.css" />
+  
+  <!-- Icons (Lucide) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="light-theme">
+
+  <!-- Background decorative elements -->
+  <div class="blob-bg blob-1"></div>
+  <div class="blob-bg blob-2"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container glass">
+      <div class="logo-area">
+        <a href="./index.html" class="brand">
+          <img src="./assets/logo.png" alt="HireLinkin Logo" class="header-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <span style="display:none;">HireLinkin</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Error Section -->
+  <main class="main-body" style="min-height: 70vh; display: flex; align-items: center; justify-content: center; text-align: center; margin-top: 8rem;">
+    <div class="error-container glass-panel" style="padding: 4rem 2rem; max-width: 600px; width: 100%;">
+      <i data-lucide="alert-circle" style="width: 64px; height: 64px; color: var(--primary-blue); margin-bottom: 2rem; display: inline-block;"></i>
+      <h1 style="font-size: 3.5rem; margin-bottom: 1rem; color: var(--text-main);">404</h1>
+      <h2 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--text-main);">Page Not Found</h2>
+      <p style="color: var(--text-gray); margin-bottom: 2.5rem; font-size: 1.1rem;">
+        We couldn't find the page you are looking for. It might have been removed, had its name changed, or is temporarily unavailable.
+      </p>
+      <a href="./index.html" class="btn btn-primary btn-large glow-btn ripple" style="display: inline-flex;">
+        <i data-lucide="arrow-left"></i> Return to Home
+      </a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container text-center" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <div class="brand mb-2">
+        <img src="./assets/logo.png" alt="HireLinkin Logo" class="header-logo" style="height: 45px; filter: grayscale(100%); opacity: 0.8;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+        <span style="display:none;">HireLinkin</span>
+      </div>
+      <p class="text-sm" style="max-width: 400px; text-align: center; margin: 0 auto;">Driving intelligent connections between leading corporates and premium specialized talent.</p>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 HireLinkin AI Platform. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./assets/script.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
