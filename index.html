@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HireLinkin | Smart AI Job Platform</title>
-  
+
   <!-- SEO & Meta Tags -->
-  <meta name="description" content="HireLinkin is a premium AI-powered job matching platform connecting top corporate entities with verified, elite talent." />
-  
+  <meta name="description"
+    content="HireLinkin is a premium AI-powered job matching platform connecting top corporate entities with verified, elite talent." />
+
   <!-- Modern Typography (Outfit) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
+
   <!-- Styles (S3 Relative Link) -->
   <link rel="stylesheet" href="./assets/style.css" />
-  
+
   <!-- Icons (Lucide) -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body class="light-theme">
 
   <!-- Background decorative elements -->
@@ -30,7 +33,8 @@
     <div class="nav-container glass">
       <div class="logo-area">
         <a href="#" class="brand">
-          <img src="./assets/logo.png" alt="HireLinkin Logo" class="header-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <img src="./assets/logo.png" alt="HireLinkin Logo" class="header-logo"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
           <span style="display:none;">HireLinkin</span>
         </a>
       </div>
@@ -45,7 +49,8 @@
     <div class="hero-content scroll-reveal">
       <div class="badge">Next-Gen Talent Platform</div>
       <h1>Intelligent Matching for the <span>Modern Workforce</span></h1>
-      <p>Bridge the gap between leading corporations and an elite, pre-vetted talent pool powered by intelligent matching algorithms.</p>
+      <p>Bridge the gap between leading corporations and an elite, pre-vetted talent pool powered by intelligent
+        matching algorithms.</p>
       <div class="hero-buttons">
         <a href="#talent" class="btn btn-primary btn-large glow-btn">
           <i data-lucide="user-plus"></i> Join the Network
@@ -53,15 +58,16 @@
       </div>
     </div>
     <div class="hero-image-wrapper scroll-reveal">
-        <!-- hidden global access card -->
-        <div class="floating-card c2 glass">
-            <i data-lucide="cpu"></i>
-            <div>
-              <strong>Smart Match</strong>
-              <span>AI-powered connections</span>
-            </div>
+      <!-- hidden global access card -->
+      <div class="floating-card c2 glass">
+        <i data-lucide="cpu"></i>
+        <div>
+          <strong>Smart Match</strong>
+          <span>AI-powered connections</span>
         </div>
-        <img src="./assets/hero-bg.png" alt="AI Network" class="hero-img" onerror="this.style.display='none'; this.parentElement.classList.add('fallback-bg');" />
+      </div>
+      <img src="./assets/hero-bg.png" alt="AI Network" class="hero-img"
+        onerror="this.style.display='none'; this.parentElement.classList.add('fallback-bg');" />
     </div>
   </header>
 
@@ -73,36 +79,47 @@
     <!-- For Talent Section -->
     <section id="talent" class="section-container scroll-reveal">
       <div class="card form-card glass reverse-grid">
-          <div class="form-instructions flex-center">
-            <div class="icon-badge">
-              <i data-lucide="linkedin" class="badge-icon"></i>
-            </div>
-            <h3>Join the Network</h3>
-            <p>Skip the generic job boards. Get matched directly with tier-1 corporations actively looking for your exact skill profile.</p>
-            <a href="https://linkedin.com/groups/15532033/" target="_blank" class="btn btn-linkedin w-100 mt-3 ripple" style="margin-bottom: 2rem;">
-              Join our LinkedIn Community
+        <div class="form-instructions flex-center">
+          <div class="icon-badge">
+            <i data-lucide="linkedin" class="badge-icon"></i>
+          </div>
+          <h3>Join the Network</h3>
+          <p>Skip the generic job boards. Get matched directly with tier-1 corporations actively looking for your exact
+            skill profile.</p>
+          <a href="https://linkedin.com/groups/15532033/" target="_blank" class="btn btn-linkedin w-100 mt-3 ripple"
+            style="margin-bottom: 2rem;">
+            Join our LinkedIn Community
+          </a>
+
+          <div style="width: 100%; border-top: 1px solid var(--border-color); padding-top: 2rem;">
+            <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem; font-weight: 600; color: var(--text-main);">Career
+              Consultation</h4>
+            <p class="text-sm" style="margin-bottom: 1rem;">Book a session with our specialists to discuss your career,
+              build a winning resume, and find the perfect job matches.</p>
+            <a href="#"
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/connect-hirelinkin'});return false;"
+              class="btn btn-outline w-100 ripple">
+              <i data-lucide="calendar"></i> Book a Review
             </a>
-            
-            <div style="width: 100%; border-top: 1px solid var(--border-color); padding-top: 2rem;">
-              <h4 style="margin-bottom: 0.5rem; font-size: 1.25rem; font-weight: 600; color: var(--text-main);">Career Consultation</h4>
-              <p class="text-sm" style="margin-bottom: 1rem;">Book a session with our specialists to discuss your career, build a winning resume, and find the perfect job matches.</p>
-              <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kartikeychaubey005/30min'});return false;" class="btn btn-outline w-100 ripple">
-                <i data-lucide="calendar"></i> Book a Review
-              </a>
-            </div>
           </div>
-          <div class="form-fields border-left">
-            <h3>Enter the Talent Pool</h3>
-            <p class="text-sm text-gray mb-4">Upload your credentials to get discovered by specialized corporate recruiters.</p>
-            <div class="google-form-container text-center mt-4" style="background: rgba(10, 132, 255, 0.05); padding: 2rem; border-radius: 16px; border: 1px dashed rgba(10, 132, 255, 0.3); text-align: center;">
-              <i data-lucide="file-text" style="width: 48px; height: 48px; color: var(--primary-blue); margin-bottom: 1rem; display: inline-block;"></i>
-              <h4 style="margin-bottom: 1rem; color: var(--text-main); font-size: 1.25rem;">Secure Submission</h4>
-              <p class="text-sm text-gray mb-3">To ensure the privacy and security of your resume, we process applications directly through Google Forms.</p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLScIJTHKwh495Tp8NFarE5JyO0ARnvQa51GoiyP2PCrhtrQH-A/viewform" target="_blank" class="btn btn-primary w-100 glow-btn ripple mt-2">
-                <i data-lucide="external-link"></i> Upload via Google Forms
-              </a>
-            </div>
+        </div>
+        <div class="form-fields border-left">
+          <h3>Enter the Talent Pool</h3>
+          <p class="text-sm text-gray mb-4">Upload your credentials to get discovered by specialized corporate
+            recruiters.</p>
+          <div class="google-form-container text-center mt-4"
+            style="background: rgba(10, 132, 255, 0.05); padding: 2rem; border-radius: 16px; border: 1px dashed rgba(10, 132, 255, 0.3); text-align: center;">
+            <i data-lucide="file-text"
+              style="width: 48px; height: 48px; color: var(--primary-blue); margin-bottom: 1rem; display: inline-block;"></i>
+            <h4 style="margin-bottom: 1rem; color: var(--text-main); font-size: 1.25rem;">Secure Submission</h4>
+            <p class="text-sm text-gray mb-3">To ensure the privacy and security of your resume, we process applications
+              directly through Google Forms.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScIJTHKwh495Tp8NFarE5JyO0ARnvQa51GoiyP2PCrhtrQH-A/viewform"
+              target="_blank" class="btn btn-primary w-100 glow-btn ripple mt-2">
+              <i data-lucide="external-link"></i> Upload via Google Forms
+            </a>
           </div>
+        </div>
       </div>
     </section>
 
@@ -111,24 +128,29 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-col">
-          <div class="brand mb-2">
-            <img src="./assets/logo.png" alt="HireLinkin Logo" class="header-logo" style="height: 45px; filter: grayscale(100%); opacity: 0.8;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
-            <span style="display:none;">HireLinkin</span>
-          </div>
-          <p class="text-sm">Driving intelligent connections between leading corporates and premium specialized talent.</p>
+        <div class="brand mb-2">
+          <img src="./assets/logo.png" alt="HireLinkin Logo" class="header-logo"
+            style="height: 45px; filter: grayscale(100%); opacity: 0.8;"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <span style="display:none;">HireLinkin</span>
+        </div>
+        <p class="text-sm">Driving intelligent connections between leading corporates and premium specialized talent.
+        </p>
       </div>
       <div class="footer-col">
-          <strong>Quick Links</strong>
-          <ul>
-              <li><a href="#talent">Seekers</a></li>
-          </ul>
+        <strong>Quick Links</strong>
+        <ul>
+          <li><a href="#talent">Seekers</a></li>
+        </ul>
       </div>
       <div class="footer-col">
-          <strong>Start a Conversation</strong>
-          <ul>
-              <li><a href="mailto:kartikey@hirelinkin.com">kartikey@hirelinkin.com</a></li>
-              <li><a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kartikeychaubey005/30min'});return false;">Connect on Calendly</a></li>
-          </ul>
+        <strong>Start a Conversation</strong>
+        <ul>
+          <li><a href="mailto:connect.hirelinkin@gmail.com">connect.hirelinkin@gmail.com</a></li>
+          <li><a href="#"
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/connect-hirelinkin'});return false;">Connect
+              on Calendly</a></li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
@@ -146,7 +168,9 @@
   <!-- Calendly badge widget begin -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-  <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/kartikeychaubey005/30min', text: '🗓 Schedule Free Consultation', color: '#0A84FF', textColor: '#ffffff', branding: true }); }</script>
+  <script
+    type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/connect-hirelinkin', text: 'Connect with our team', color: '#0A84FF', textColor: '#ffffff', branding: true }); }</script>
   <!-- Calendly badge widget end -->
 </body>
+
 </html>
